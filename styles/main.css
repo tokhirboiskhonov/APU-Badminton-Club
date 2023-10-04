@@ -1,0 +1,67 @@
+/* normalize */
+/* variables */
+:root {
+  --primary: #e31e24;
+
+  --black: #2b2a29;
+  --white: #f9f9f9;
+  --gray: #938b8b;
+  --yellow: #f3cc3c;
+
+  --card: #e6e6e6;
+  --card-dark: #dcdcdc;
+
+  --background: #f2f3f4;
+}
+
+/* general */
+html {
+  height: 100%;
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  scroll-behavior: smooth;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  border: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+
+  font-family: "Raleway", "Arial", sans-serif;
+  font-size: 16px;
+}
+
+img {
+  display: block;
+}
+
+main {
+  flex-grow: 1;
+}
+
+.container {
+  max-width: 1480px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 20px;
+}
