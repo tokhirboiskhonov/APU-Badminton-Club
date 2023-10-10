@@ -1,7 +1,9 @@
 .header__top {
   position: relative;
   padding: 20px 0;
+
   color: $white;
+
   background-color: $black;
 }
 
@@ -13,22 +15,28 @@
   position: absolute;
   bottom: -10px;
   right: 0;
+
   width: calc((100vw - 1440px) / 2 + 540px);
   height: 100%;
   padding: 16px 0;
   padding-right: calc((100vw - 1440px) / 2 - 8px);
-  @include middleText;
+
+  @include MiddleText;
   line-height: 16px;
   text-align: right;
+
   background-color: $primary;
+  box-shadow: 0px 0px 25px 0px rgba(43, 42, 41, 0.5);
 
   &::before {
     content: "";
     position: absolute;
     top: 0;
     left: -20px;
+
     width: 0;
     height: 0;
+
     border-style: solid;
     border-width: 0 0 56px 20px;
     border-color: transparent transparent $primary transparent;

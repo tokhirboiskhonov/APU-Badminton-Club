@@ -1,2 +1,12 @@
 .button {
+  display: inline-block;
+  padding: 15px 30px;
+
+  @include Link;
+
+  background-color: $black;
+
+  &--red {
+    background-color: $primary !important;
+  }
 }

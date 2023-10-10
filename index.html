@@ -85,8 +85,8 @@
               class="header__logo"
               src="https://html.themability.com/badmintonstar/assets/images/logo.png"
               alt="Merit website logo with a red decorative triangle and the Merit inscription in black."
-              width="180"
-              height="100"
+              width="100"
+              height="50"
             />
           </a>
 
@@ -103,7 +103,7 @@
                 <a class="nav__link" href="./courses.html">Courses</a>
               </li>
               <li class="nav__item">
-                <a class="nav__link" href="./teachers.html">Past and Future Event</a>
+                <a class="nav__link" href="./teachers.html">Events</a>
               </li>
               <li class="nav__item">
                 <a class="nav__link" href="./news.html">Main People</a>
@@ -118,45 +118,56 @@
     </header>
 
     <main class="main">
-      <section>
-        <div class="hero">
+      <section class="hero">
+        <div class="container hero__container">
           <div class="hero__content">
-            <h2 class="hero__heading">Badminton club and academy</h2>
+            <h1 class="hero__heading">Badminton club and academy</h1>
+
             <p class="hero__paragraph">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque quidem velit in,
               maxime laborum esse odit exercitationem. Asperiores, in minus.
             </p>
-            <a class="hero__link-read" href="about.html">Read more</a>
+
+            <a class="button hero__link" href="./about.html">Read more</a>
           </div>
         </div>
       </section>
 
-      <section>
-        <div class="our__badminton">
-          <div>
-            <div class="our__badminton-club">
-              <h2 class="our__badminton-heading">Why Our Badminton Club?</h2>
-            </div>
-            <p class="our__badminton-paragraph">
+      <section class="our-club">
+        <div class="our-club__top">
+          <h2 class="our-club__heading">Why Our Badminton Club?</h2>
+        </div>
+
+        <div class="container our-club__container">
+          <div class="our-club__content">
+            <p class="our-club__description">
               Our badminton club stands out for its commitment to fostering a genuine sense of
               community and growth. We cater to players of all skill levels, ensuring that everyone,
               from novices to professionals, has a space to learn and thrive. Our educational
               workshops and training sessions provide unparalleled opportunities for improvement.
-              Beyond the sport, we prioritize sustainability with eco-friendly initiatives and
+              <!-- Beyond the sport, we prioritize sustainability with eco-friendly initiatives and
               emphasize values that extend beyond the court. Here, you're not just playing
               badminton; you're becoming a part of a supportive, environmentally-conscious, and
-              dedicated community.
+              dedicated community. -->
             </p>
-            <a class="our__badminton-link" href="about.html"> About Our Club</a>
-          </div>
 
-          <img src="/assets/images/person-photo.svg" alt="person-photos" width="322" height="441" />
+            <a class="button button--red our-club__link" href="about.html"> About Our Club</a>
+
+            <img
+              class="our-club__image"
+              src="/assets/images/person-photo.svg"
+              alt="person-photos"
+              width="322"
+              height="441"
+            />
+          </div>
         </div>
       </section>
 
       <section class="popular__courses container">
         <div class="popular__courses-box">
           <h2 class="popular__courses-heading">Popular Courses</h2>
+
           <p class="popular__courses-text">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio iste officiis
             perferendis, illo et quia.

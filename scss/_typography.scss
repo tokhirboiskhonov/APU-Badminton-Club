@@ -7,10 +7,28 @@
   color: inherit;
 }
 
-@mixin middleText {
+@mixin MiddleText {
   font-size: 16px;
-  font-style: normal;
   font-weight: 500;
   line-height: 24px;
-  color: inherit;
+}
+
+@mixin BigText {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 28px;
+}
+
+@mixin Heading1 {
+  font-size: 54px;
+  font-weight: 700;
+  line-height: 54px;
+  text-transform: capitalize;
+}
+
+@mixin Heading2 {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 38px;
+  text-transform: uppercase;
 }
