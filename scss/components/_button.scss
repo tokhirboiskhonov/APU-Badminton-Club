@@ -9,6 +9,8 @@
   border: none;
   background-color: $black;
 
+  cursor: pointer;
+
   &--red {
     background-color: $primary !important;
   }
