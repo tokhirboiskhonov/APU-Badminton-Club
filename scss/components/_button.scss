@@ -4,9 +4,16 @@
 
   @include Link;
 
+  color: $white;
+
+  border: none;
   background-color: $black;
 
   &--red {
     background-color: $primary !important;
+  }
+
+  &--small {
+    padding: 10px 30px !important;
   }
 }

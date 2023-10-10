@@ -1,0 +1,94 @@
+.popular-courses {
+  position: relative;
+
+  padding: 100px 0;
+}
+
+.popular-courses__top {
+  margin-bottom: 50px;
+}
+
+.popular-courses__heading {
+  margin: 0;
+  margin-bottom: 10px;
+
+  @include Heading2;
+  text-align: center;
+}
+
+.popular-courses__description {
+  margin: 0;
+
+  @include MiddleText;
+  text-align: center;
+}
+
+.popular-courses__list {
+  display: flex;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+
+  margin: 0;
+  padding: 0;
+  padding-top: 50px;
+  list-style-type: none;
+}
+
+.popular-course {
+  position: relative;
+
+  padding: 30px;
+
+  border-bottom: 2px solid var(--Primary, #e31e24);
+  background-color: $card;
+  box-shadow: 0px 0px 20px 0px rgba(43, 42, 41, 0.25);
+}
+
+.popular-course__image {
+  margin-top: -80px;
+}
+
+.popular-course__inner {
+  padding: 30px 0;
+}
+
+.popular-course__heading {
+  margin: 0;
+  margin-bottom: 5px;
+
+  @include Heading3;
+}
+
+.popular-course__details {
+  margin-bottom: 20px;
+}
+
+.popular-course__author {
+  margin-right: 50px;
+
+  @include MiddleText;
+}
+
+.popular-course__date {
+  font-family: "Montserrat" !important;
+  @include MiddleText;
+}
+
+.popular-course__description {
+  margin: 0;
+  margin-bottom: 20px;
+
+  @include MiddleText;
+}
+
+.popular-course__bottom {
+  display: flex;
+}
+
+.popular-courses__button {
+  position: absolute;
+
+  bottom: 0;
+  right: 50%;
+  transform: translate(50%, 50%);
+}
