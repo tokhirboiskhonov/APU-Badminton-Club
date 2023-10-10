@@ -1,2 +1,21 @@
 .button {
+  display: inline-block;
+  padding: 15px 30px;
+
+  @include Link;
+
+  color: $white;
+
+  border: none;
+  background-color: $black;
+
+  cursor: pointer;
+
+  &--red {
+    background-color: $primary !important;
+  }
+
+  &--small {
+    padding: 10px 30px !important;
+  }
 }

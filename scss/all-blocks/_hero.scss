@@ -1,0 +1,89 @@
+.hero {
+  position: relative;
+
+  margin-bottom: 100px;
+  overflow-x: hidden;
+
+  color: $white;
+
+  background-image: url(https://picsum.photos/1423/590);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.hero__container {
+  display: flex;
+  align-items: center;
+  min-height: calc(100vh - 166px);
+
+  &::before {
+    content: "";
+
+    position: absolute;
+    right: calc(100vw / 2 - 140px);
+    bottom: 0;
+    z-index: 0;
+
+    width: 0;
+    height: 0;
+
+    border-style: solid;
+    border-width: 0 0 calc(100vh - 166px) calc((100vh - 166px) * (20 / 56));
+    border-color: transparent transparent $primary transparent;
+    opacity: 0.7;
+
+    pointer-events: none;
+  }
+
+  &::after {
+    content: "";
+
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: 0;
+
+    width: calc(100vw / 2 - 140px);
+    height: 100%;
+
+    background-color: $primary;
+    opacity: 0.7;
+
+    pointer-events: none;
+  }
+}
+
+.hero__content {
+  position: relative;
+  z-index: 1;
+
+  max-width: 550px;
+  margin-left: auto;
+}
+
+.hero__heading {
+  max-width: 500px;
+  margin: 0;
+  margin-bottom: 15px;
+
+  @include Heading1;
+
+  &::after {
+    content: "";
+
+    display: block;
+    width: 300px;
+    height: 3px;
+    margin-top: 15px;
+
+    background-color: $white;
+  }
+}
+
+.hero__paragraph {
+  margin: 0;
+  margin-bottom: 15px;
+
+  @include MiddleText;
+  color: $white;
+}
