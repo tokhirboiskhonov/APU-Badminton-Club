@@ -1,0 +1,180 @@
+.membership {
+  margin-bottom: 50px;
+}
+
+.membership__top {
+  position: relative;
+  margin-bottom: 50px;
+  overflow-x: hidden;
+  color: $white;
+  // background-image: url(https://picsum.photos/1423/590);
+  // background-size: cover;
+  // background-repeat: no-repeat;
+  background-color: $black;
+}
+
+.membership__container {
+  display: flex;
+  align-items: center;
+  min-height: calc(100vh - 166px);
+}
+
+.membership__content {
+  position: relative;
+  z-index: 1;
+  max-width: 550px;
+  margin: 0 auto;
+}
+
+.membership__heading {
+  font-size: 42px;
+  font-weight: 700;
+  line-height: 54px;
+  margin: 0;
+  padding: 0;
+  text-transform: uppercase;
+}
+
+.membership__title {
+  margin: 0;
+  padding: 0;
+  @include Heading1;
+  text-align: center;
+}
+
+.membership__list {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  place-items: center;
+  row-gap: 20px;
+  list-style-type: none;
+  margin: 0;
+  padding: 20px;
+}
+
+.membership__item {
+  cursor: pointer;
+}
+
+.membership__item div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.membership__item .info1::after {
+  content: "1";
+  font-size: 58px;
+  font-weight: 700;
+  line-height: 49px;
+  color: $primary-champ;
+}
+
+.membership__item .info2::after {
+  content: "2";
+  font-size: 58px;
+  font-weight: 700;
+  line-height: 49px;
+  color: $primary-champ;
+}
+
+.membership__item .info3::after {
+  content: "3";
+  font-size: 58px;
+  font-weight: 700;
+  line-height: 49px;
+  color: $primary-champ;
+}
+
+.membership__item .info4::after {
+  content: "4";
+  font-size: 58px;
+  font-weight: 700;
+  line-height: 49px;
+  color: $primary-champ;
+}
+
+.membership__item a {
+  text-decoration: none;
+  color: $black;
+}
+
+.membership__item h3 {
+  margin: 0;
+  padding: 0;
+  @include Heading3;
+}
+
+.membership__item p {
+  margin: 0;
+  padding: 0;
+  @include BigText;
+}
+
+.membership__subscribe {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: $slide-card;
+  margin: 0;
+  margin-top: 50px;
+  padding: 40px 30px;
+  border: 2px solid $primary-champ;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+.membership__newsletter h2 {
+  font-size: 24px;
+  font-weight: 600;
+  margin: 0;
+  margin-bottom: 5px;
+  padding: 0;
+  color: $primary-champ;
+}
+
+.membership__newsletter p {
+  font-size: 16px;
+  color: $black;
+  margin: 0;
+  padding: 0;
+}
+
+.membership__forms {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+.membership__form input {
+  width: 443px;
+  height: 60px;
+  margin: 0;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px !important;
+  -webkit-border-radius: 10px !important;
+  -moz-border-radius: 10px !important;
+  -ms-border-radius: 10px !important;
+  -o-border-radius: 10px !important;
+}
+
+.subscribe__button {
+  width: 150px;
+  height: 60px;
+  margin: 0;
+  padding: 8px 30px;
+  font-size: 18px;
+  font-weight: 700;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  text-transform: capitalize !important;
+}
