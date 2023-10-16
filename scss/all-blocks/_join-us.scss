@@ -1,10 +1,12 @@
 .join-us {
-  width: 100%;
   margin: 0;
-  padding: 20px 0;
-  background-color: darkcyan;
+  padding: 100px 0;
+  margin-bottom: 100px;
 
-  // color: $white;
+  color: $white;
+  text-align: center;
+
+  background-color: $black;
 
   // background-image: url("../../assets/images/badminton-back.jpg");
   // background-repeat: no-repeat;
@@ -13,21 +15,18 @@
 
 .join-us__heading {
   margin: 0;
-  margin-bottom: 20px;
-  color: $white;
+  margin-bottom: 10px;
+
   @include Heading2;
-  text-align: center;
 }
 
 .join-us__description {
   margin: 0;
-  margin-bottom: 20px;
-  color: $white;
+  margin-bottom: 10px;
+
   @include MiddleText;
-  text-align: center;
 }
 
-.join-us__button {
-  display: block;
-  margin: 0 auto;
+.join-us__heading-divider {
+  margin-bottom: 50px;
 }

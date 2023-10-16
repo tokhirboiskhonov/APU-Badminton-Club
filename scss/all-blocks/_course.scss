@@ -1,10 +1,8 @@
 .course__top {
-  position: relative;
   overflow-x: hidden;
+
   color: $white;
-  //   background-image: url(https://picsum.photos/1423/590);
-  //   background-size: cover;
-  //   background-repeat: no-repeat;
+
   background-color: $black;
 }
 
@@ -15,8 +13,6 @@
 }
 
 .course__content {
-  position: relative;
-  z-index: 1;
   max-width: 550px;
   margin: 0 auto;
 }
@@ -28,86 +24,4 @@
   margin: 0;
   padding: 0;
   text-transform: uppercase;
-}
-
-.teachers__title {
-  margin: 0;
-  margin-bottom: 10px;
-  padding: 0;
-  text-align: center;
-  @include Heading2;
-}
-
-.teachers__text {
-  margin: 0;
-  margin-bottom: 15px;
-  padding: 0;
-  @include MiddleText;
-  text-align: center;
-}
-
-.graduate__el {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 5px;
-}
-
-hr {
-  margin: 0;
-  padding: 0;
-}
-
-.teacher__list {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 10px;
-  list-style-type: none;
-  margin: 0;
-  margin-top: 30px;
-  margin-bottom: 50px;
-  padding: 0;
-}
-
-.teacher__card {
-  background-color: $card;
-  box-shadow: 0px 0px 20px 0px rgba(43, 42, 41, 0.25);
-  transition: box-shadow 0.2s ease, background-color 0.2s ease;
-  cursor: pointer;
-
-  &:hover {
-    border-bottom: 2px solid var(--Primary, #e31e24);
-    background-color: $white;
-    box-shadow: 0px 0px 25px 0px rgba(43, 42, 41, 0.5);
-  }
-}
-
-.teacher__inner {
-  padding: 30px 0;
-}
-
-.teacher__card h3 {
-  margin: 0;
-  padding: 0;
-  @include Heading3;
-  text-align: center;
-}
-
-.teacher__card p {
-  margin: 0;
-  padding: 0;
-  @include MiddleText;
-  text-align: center;
-}
-
-.social__icons {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  //   flex-grow: 1;
-  gap: 10px;
-  margin: 0;
-  margin-top: 20px;
-  padding: 0;
 }

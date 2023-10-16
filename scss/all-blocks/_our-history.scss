@@ -1,0 +1,59 @@
+.our-history {
+  padding: 100px 0;
+}
+
+.our-history__top {
+  margin-bottom: 50px;
+
+  text-align: center;
+}
+
+.our-history__heading {
+  margin: 0;
+  margin-bottom: 10px;
+
+  @include Heading2;
+}
+
+.our-history__description {
+  margin: 0;
+  margin-bottom: 10px;
+
+  @include MiddleText;
+}
+
+.our-history__info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.our-history__image {
+  object-fit: cover;
+}
+
+.our-history__list {
+  max-width: 800px;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.our-history__item {
+  & + & {
+    margin-top: 15px;
+  }
+}
+
+.our-history__item__heading {
+  margin: 0;
+  margin-bottom: 10px;
+
+  @include Heading4;
+}
+
+.our-history__item__description {
+  margin: 0;
+
+  @include SmallText;
+}

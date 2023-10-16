@@ -1,0 +1,38 @@
+.heading-divider {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+
+  &::before,
+  &::after {
+    content: "";
+
+    width: 100px;
+    height: 2px;
+
+    background-color: $black;
+    border-radius: 5px;
+  }
+
+  span {
+    width: 25px;
+    height: 18px;
+
+    background-image: url("../../assets/icons/graduate-icon-black.svg");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+
+  &--white {
+    &::before,
+    &::after {
+      background-color: $white;
+    }
+
+    span {
+      background-image: url("../../assets/icons/graduate-icon-white.svg");
+    }
+  }
+}
