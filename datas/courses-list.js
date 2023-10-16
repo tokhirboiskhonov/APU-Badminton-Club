@@ -43,7 +43,7 @@ const courses = [
     date: "22.02.2002",
     shows: "65",
     comments: "23",
-    alias: "strength-training",
+    alias: "agility-and-flexibility",
     rating: "4",
   },
 
@@ -55,7 +55,7 @@ const courses = [
     date: "22.02.2002",
     shows: "65",
     comments: "23",
-    alias: "strength-training",
+    alias: "cardiovascular-endurance",
     rating: "4",
   },
 
@@ -67,7 +67,7 @@ const courses = [
     date: "28.05.2013",
     shows: "65",
     comments: "23",
-    alias: "strength-training",
+    alias: "balance-and-coordinatio",
     rating: "4",
   },
 ];
