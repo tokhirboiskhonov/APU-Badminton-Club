@@ -20,7 +20,7 @@ const courses = [
     shows: "65",
     comments: "23",
     alias: "strength-and-endurance",
-    rating: "4",
+    rating: "3",
   },
 
   {
