@@ -1,0 +1,33 @@
+.choose-us {
+  margin-bottom: 100px;
+}
+
+.choose-us__heading {
+  margin: 0;
+  margin-bottom: 20px;
+
+  @include Heading2;
+  color: $primary-champ;
+}
+
+.choose-us__list {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 10px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.choose-us__item__heading {
+  margin: 0;
+
+  @include Heading3;
+}
+
+.choose-us__item__text {
+  margin: 0;
+
+  @include MiddleText;
+}

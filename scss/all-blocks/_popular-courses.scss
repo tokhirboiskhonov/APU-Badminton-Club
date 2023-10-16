@@ -2,10 +2,14 @@
   position: relative;
 
   padding: 100px 0;
+
+  text-align: center;
 }
 
 .popular-courses__top {
   margin-bottom: 50px;
+
+  text-align: center;
 }
 
 .popular-courses__heading {
@@ -13,27 +17,28 @@
   margin-bottom: 10px;
 
   @include Heading2;
-  text-align: center;
 }
 
 .popular-courses__description {
   margin: 0;
+  margin-bottom: 10px;
 
   @include MiddleText;
-  text-align: center;
 }
 
 .popular-courses__list {
-  display: flex;
+  display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 30px;
-
+  gap: 10px;
+  row-gap: 100px;
   margin: 0;
   margin-bottom: 50px;
   padding: 0;
   padding-top: 50px;
   padding-bottom: 17px;
   list-style-type: none;
+
+  text-align: left;
 }
 
 .popular-course {
@@ -106,51 +111,37 @@
   display: flex;
 }
 
-.popular-course__shows {
+.popular-course__shows,
+.popular-course__comments {
   display: flex;
   align-items: center;
   gap: 10px;
   margin-right: 30px;
 
+  @include Link;
   font-family: "Montserrat" !important;
-  font-size: 14px;
-  font-weight: 600;
-  line-height: 16px;
-  text-transform: uppercase;
+  line-height: 16px !important;
 
   &::before {
     content: url("../../assets/icons/eye-icon.svg");
-
     height: 16px;
   }
 }
 
 .popular-course__comments {
-  display: flex;
-  align-items: center;
-  gap: 10px;
   margin-right: auto;
-
-  font-family: "Montserrat" !important;
-  font-size: 14px;
-  font-weight: 600;
-  line-height: 16px;
-  text-transform: uppercase;
 
   &::before {
     content: url("../../assets/icons/comment-icon.svg");
-
     height: 16px;
   }
 }
 
 .popular-course__button {
   position: absolute;
-
   bottom: 0;
   right: 50%;
   transform: translate(50%, 50%);
-
   transition: background-color 0.2s ease;
 
   &:hover {
@@ -159,7 +150,7 @@
 }
 
 .popular-courses__button {
-  display: flex;
+  display: inline-flex;
   align-items: center;
   gap: 10px;
   margin: 0 auto;

@@ -1,0 +1,70 @@
+.player {
+  margin-bottom: 50px;
+}
+
+.player__top {
+  position: relative;
+  margin-bottom: 50px;
+  overflow-x: hidden;
+  color: $white;
+  // background-image: url(https://picsum.photos/1423/590);
+  // background-size: cover;
+  // background-repeat: no-repeat;
+  background-color: $black;
+}
+
+.player__container {
+  display: flex;
+  align-items: center;
+  min-height: calc(100vh - 166px);
+}
+
+.player__content {
+  position: relative;
+  z-index: 1;
+  max-width: 550px;
+  margin: 0 auto;
+}
+
+.player__heading {
+  font-size: 42px;
+  font-weight: 700;
+  line-height: 54px;
+  margin: 0;
+  padding: 0;
+  text-transform: uppercase;
+}
+
+.player__wrapper {
+  margin-bottom: 50px;
+}
+
+.player__inner {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.player__info h2 {
+  margin: 0;
+  margin-bottom: 10px;
+  padding: 0;
+  @include Heading2;
+  color: $primary-champ;
+}
+
+.player__info--text {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  font-weight: 700 !important;
+}
+
+.player__info p {
+  width: 636px;
+  font-size: 16px;
+  font-weight: 500;
+  margin: 0;
+  margin-top: 10px;
+  padding: 0;
+}

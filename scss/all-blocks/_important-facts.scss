@@ -1,5 +1,5 @@
 .important-facts {
-  padding: 80px 0;
+  padding: 100px 0;
 
   color: $white;
 
@@ -21,6 +21,7 @@
 
 .important-facts__description {
   margin: 0;
+  margin-bottom: 10px;
 
   @include MiddleText;
 }
@@ -47,11 +48,7 @@
   margin-bottom: 20px;
   padding-bottom: 10px;
 
-  font-size: 32px;
-  font-weight: 600;
-  text-transform: capitalize;
-  line-height: 38px;
-  color: $white;
+  @include FactHeading;
 
   border-bottom: 2px $white solid;
 }

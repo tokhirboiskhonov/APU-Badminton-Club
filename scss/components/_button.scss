@@ -3,7 +3,7 @@
   padding: 15px 30px;
 
   @include Link;
-
+  text-align: center;
   color: $white;
 
   border: none;
@@ -13,6 +13,10 @@
 
   &--red {
     background-color: $primary !important;
+  }
+
+  &--burgundy {
+    background-color: $primary-champ !important;
   }
 
   &--small {
