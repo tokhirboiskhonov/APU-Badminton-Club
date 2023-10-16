@@ -1,6 +1,9 @@
 const teachersList = document.querySelector(".teachers__list");
 const teacherCardTemplate = document.querySelector("#teacher-card").content;
 
+const coursesList = document.querySelector(".popular-courses__list");
+const courseCardTemplate = document.querySelector("#popular-course").content;
+
 const renderTeachers = (teachers) => {
   teachersList.innerHTML = null;
 
@@ -30,4 +33,24 @@ const renderTeachers = (teachers) => {
   });
 };
 
+const renderCourses = (courses) => {
+  coursesList.innerHTML = null;
+
+  courses.forEach((course) => {
+    const courseClone = courseCardTemplate.cloneNode(true);
+
+    courseClone.querySelector(".popular-course__image").src = course.image;
+    courseClone.querySelector(".popular-course__heading").textContent = course.title;
+    courseClone.querySelector(".popular-course__author").textContent = course.teacher;
+    courseClone.querySelector(".popular-course__date").textContent = course.date;
+    courseClone.querySelector(".popular-course__description").textContent = course.description;
+    courseClone.querySelector(".popular-course__shows").textContent = course.shows;
+    courseClone.querySelector(".popular-course__comments").textContent = course.comments;
+    courseClone.querySelector(".popular-course__button").href = `./course/${course.alias}.html`;
+
+    coursesList.appendChild(courseClone);
+  });
+};
+
 renderTeachers(teachers);
+renderCourses(courses);
