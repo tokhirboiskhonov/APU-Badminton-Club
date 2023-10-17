@@ -47,6 +47,7 @@ const renderCourses = (courses) => {
     courseClone.querySelector(".popular-course__shows").textContent = course.shows;
     courseClone.querySelector(".popular-course__comments").textContent = course.comments;
     courseClone.querySelector(".popular-course__button").href = `./course/${course.alias}.html`;
+    courseClone.querySelector(".popular-course__rating").innerHTML = ratings[course.rating];
 
     coursesList.appendChild(courseClone);
   });
