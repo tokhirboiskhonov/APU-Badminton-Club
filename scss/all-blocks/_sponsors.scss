@@ -1,0 +1,110 @@
+.sponsor__banner {
+  position: relative;
+  overflow-x: hidden;
+  color: $white;
+  background-image: url(/assets/images/page-title-bg.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.sponsor__container {
+  display: flex;
+  align-items: center;
+  // min-height: calc(100vh - 550px);
+  height: 200px;
+}
+
+.sponsor__content {
+  position: relative;
+  z-index: 1;
+  max-width: 550px;
+  margin: 0 auto;
+}
+
+.sponsor__heading {
+  font-size: 36px;
+  font-weight: 500;
+  line-height: 54px;
+  margin: 0;
+  padding: 0;
+  text-transform: uppercase;
+}
+
+.sponsor__wrapper {
+  padding: 90px 0;
+}
+
+.sponsor__wrapper div {
+  margin-top: 25px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.sponsor__wrapper h1 {
+  font-size: 36px;
+  margin: 0 0 20px;
+  text-transform: capitalize;
+  //   text-align: center;
+  line-height: 1.2;
+}
+
+.sponsor__wrapper h1 span {
+  color: $orange;
+  font-style: italic;
+  font-weight: 400;
+  text-transform: capitalize;
+}
+
+.sponsor__wrapper p {
+  margin: 0;
+  padding: 0;
+}
+
+.sponsor__wrapper h3 {
+  font-size: 22px;
+  line-height: 1.2;
+  font-weight: 700;
+  margin: 0px 0px 30px 0px;
+  text-align: center;
+  color: $orange;
+}
+
+.sponsor__wrapper ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  gap: 15px;
+  margin: 0;
+  padding: 0;
+}
+
+.sponsor__wrapper li {
+  padding: 45px 0;
+  background: #fff;
+  width: 244px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  border: 1px solid transparent;
+  margin-bottom: 15px;
+}
+
+.sponsor__wrapper li:hover {
+  border: 1px solid $orange;
+}
+
+.sponsor__wrapper li img {
+  margin: 0 auto;
+}
+
+.sponsor__wrapper button {
+  display: block;
+  margin: 0 auto;
+  margin-top: 20px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  &:active {
+    background-color: $black !important;
+  }
+}
