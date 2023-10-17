@@ -7,16 +7,17 @@
   margin-bottom: 50px;
   overflow-x: hidden;
   color: $white;
-  // background-image: url(https://picsum.photos/1423/590);
-  // background-size: cover;
-  // background-repeat: no-repeat;
-  background-color: $black;
+  background-image: url(/assets/images/page-title-bg.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
 }
 
 .player__container {
   display: flex;
   align-items: center;
-  min-height: calc(100vh - 166px);
+  // min-height: calc(100vh - 550px);
+  height: 200px;
 }
 
 .player__content {
@@ -27,8 +28,8 @@
 }
 
 .player__heading {
-  font-size: 42px;
-  font-weight: 700;
+  font-size: 36px;
+  font-weight: 500;
   line-height: 54px;
   margin: 0;
   padding: 0;
@@ -36,35 +37,78 @@
 }
 
 .player__wrapper {
+  width: 100%;
   margin-bottom: 50px;
 }
 
 .player__inner {
+  width: 80%;
   display: flex;
   justify-content: center;
+  margin: 0 auto;
   gap: 10px;
 }
 
-.player__info h2 {
-  margin: 0;
-  margin-bottom: 10px;
-  padding: 0;
-  @include Heading2;
-  color: $primary-champ;
+.single__speaker {
+  width: 475px;
+  padding: 0px 15px;
 }
 
-.player__info--text {
+.speaker__img {
+  background-color: #fff;
+  border: 1px solid #e5e5e5;
+  padding: 6px;
+}
+
+.player__info {
   margin: 0;
+  padding: 0 15px;
+}
+
+.player__info h3 {
+  width: 635px;
+  height: 43px;
+  font-size: 36px;
+  font-weight: 400;
+  font-family: "Montserrat" sans-serif;
+  line-height: 1.2;
+  margin: 0 0 5px;
   padding: 0;
-  font-size: 16px;
-  font-weight: 700 !important;
+  color: $black;
+}
+
+.player__subtitle {
+  margin: 0 !important;
+  padding: 0;
+  font-size: 15px;
+  font-weight: 500 !important;
+  color: #ff6600;
 }
 
 .player__info p {
   width: 636px;
-  font-size: 16px;
+  font-size: 15px;
   font-weight: 500;
+  margin: 0;
+  margin-top: 5px;
+  padding: 0;
+  color: #848484;
+}
+
+.player__info h5 {
+  font-size: 22px;
+  font-weight: 400;
+  color: $black;
   margin: 0;
   margin-top: 10px;
   padding: 0;
+  text-transform: capitalize;
+}
+
+.player__i {
+  margin-top: 10px !important;
+}
+
+.player-join {
+  margin-bottom: 50px !important;
 }
