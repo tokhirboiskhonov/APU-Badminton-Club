@@ -1,7 +1,7 @@
 const teachers = [
   {
     name: "Ms. Safia",
-    job: "Teacher",
+    job: "Coach",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia, molestiae quas vel sint commodi repudiandae",
     socials: [
@@ -25,7 +25,7 @@ const teachers = [
   },
   {
     name: "Ms. Safia",
-    job: "Teacher",
+    job: "Coach",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia, molestiae quas vel sint commodi repudiandae",
     socials: [
@@ -49,7 +49,7 @@ const teachers = [
   },
   {
     name: "Ms. Safia",
-    job: "Teacher",
+    job: "Coach",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia, molestiae quas vel sint commodi repudiandae",
     socials: [
@@ -73,7 +73,7 @@ const teachers = [
   },
   {
     name: "Ms. Safia",
-    job: "Teacher",
+    job: "Coach",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia, molestiae quas vel sint commodi repudiandae",
     socials: [
