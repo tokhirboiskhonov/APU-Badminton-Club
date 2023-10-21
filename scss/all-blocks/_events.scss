@@ -86,22 +86,48 @@ table tbody td a {
   padding-right: 20px;
 }
 
-.event__bg {
+.event__bg-friendly {
   position: relative;
   width: 980px;
   height: 500px;
-  background-color: red;
+  background-image: url(/assets/images/photo5.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin: 0;
+  padding: 0;
+}
+
+.event__bg-academy {
+  position: relative;
+  width: 980px;
+  height: 500px;
+  background-image: url(/assets/images/academy-individual-competition.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center -230px;
+  margin: 0;
+  padding: 0;
+}
+
+.event__bg-bonding {
+  position: relative;
+  width: 980px;
+  height: 500px;
+  background-image: url(/assets/images/club-bonding.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center -150px;
   margin: 0;
   padding: 0;
 }
 
 .event__headTitle {
-  color: #2b2a29;
+  color: $black;
   margin: 0;
+  margin-top: 10px;
   padding: 0;
   @include Heading2;
-  padding-top: 210px;
-  text-align: center;
 }
 
 .event__dd {
@@ -167,6 +193,7 @@ table tbody td a {
 }
 
 .event__recent h3 {
+  width: 70%;
   color: #2b2a29;
   font-size: 24px;
   font-family: Raleway;
@@ -197,14 +224,57 @@ table tbody td a {
   gap: 10px;
 }
 
+.event__recent__academy {
+  min-width: 100px;
+  width: 100%;
+  height: 90px;
+  background-image: url(/assets/images/academy-individual-competition.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.event__recent__friendly {
+  min-width: 100px;
+  width: 100%;
+  height: 90px;
+  background-image: url(/assets/images/photo5.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: -6px center;
+}
+
+.event__recent__bonding {
+  min-width: 100px;
+  width: 100%;
+  height: 90px;
+  background-image: url(/assets/images/club-bonding.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
 .event__recent__bg {
   min-width: 90px;
   width: 100%;
   height: 90px;
-  background-color: $primary;
+  background-image: url(/assets/images/single-speaker.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.event__recent ul li a {
+  display: block;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  color: black;
 }
 
 .event__recent ul li h4 {
+  min-width: 270px;
+  width: 100%;
   margin: 0;
   margin-bottom: 5px;
   padding: 0;
@@ -218,6 +288,7 @@ table tbody td a {
 }
 
 .event__comments h3 {
+  width: 70%;
   color: #2b2a29;
   font-size: 24px;
   font-family: Raleway;
