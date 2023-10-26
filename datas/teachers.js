@@ -1,9 +1,10 @@
 const teachers = [
   {
-    name: "Ms. Safia",
+    name: "Mr. Chen Zi Rong",
     job: "Coach",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia, molestiae quas vel sint commodi repudiandae",
+    image: "./assets/images/zirong-coach.jpg",
     socials: [
       {
         type: "telegram",
@@ -24,10 +25,11 @@ const teachers = [
     ],
   },
   {
-    name: "Ms. Safia",
+    name: "Mr. Maxim Monastirskiy",
     job: "Coach",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia, molestiae quas vel sint commodi repudiandae",
+    image: "./assets/images/zirong-coach.jpg",
     socials: [
       {
         type: "telegram",
@@ -48,10 +50,11 @@ const teachers = [
     ],
   },
   {
-    name: "Ms. Safia",
+    name: "Mr. Chen Zi Rong",
     job: "Coach",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia, molestiae quas vel sint commodi repudiandae",
+    image: "./assets/images/zirong-coach.jpg",
     socials: [
       {
         type: "telegram",
@@ -72,10 +75,11 @@ const teachers = [
     ],
   },
   {
-    name: "Ms. Safia",
+    name: "Mr. Chen Zi Rong",
     job: "Coach",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia, molestiae quas vel sint commodi repudiandae",
+    image: "./assets/images/zirong-coach.jpg",
     socials: [
       {
         type: "telegram",

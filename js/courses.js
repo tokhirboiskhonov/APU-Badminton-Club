@@ -13,6 +13,7 @@ const renderTeachers = (teachers) => {
     teacherClone.querySelector(".teacher__name").textContent = teacher.name;
     teacherClone.querySelector(".teacher__job").textContent = teacher.job;
     teacherClone.querySelector(".teacher__description").textContent = teacher.description;
+    teacherClone.querySelector(".teacher__image").src = teacher.image;
 
     teacher.socials.forEach((social) => {
       const item = document.createElement("li");
