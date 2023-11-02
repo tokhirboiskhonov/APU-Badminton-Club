@@ -29,7 +29,7 @@ const teachers = [
     job: "Coach",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia, molestiae quas vel sint commodi repudiandae",
-    image: "./assets/images/zirong-coach.jpg",
+    image: "./assets/images/maxim-pic.jpg",
     socials: [
       {
         type: "telegram",
@@ -50,11 +50,11 @@ const teachers = [
     ],
   },
   {
-    name: "Mr. Chen Zi Rong",
+    name: "Mr. Darryl Leong",
     job: "Coach",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia, molestiae quas vel sint commodi repudiandae",
-    image: "./assets/images/zirong-coach.jpg",
+    image: "./assets/images/darryl-pic.jpg",
     socials: [
       {
         type: "telegram",
