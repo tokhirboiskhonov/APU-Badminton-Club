@@ -104,85 +104,7 @@
         <section class="container blogs__latest">
           <h2 class="latest__title">latest event news</h2>
 
-          <ul class="news__list">
-            <li class="news__item">
-              <img
-                class="news__img"
-                src="https://pxelcode.com/tf-db/maxbeat/main/images/blog/blog-img-1.jpg"
-                alt="news-img"
-                width="350"
-                height="350"
-              />
-              <span>13 June</span>
-              <p>2 min Read</p>
-              <a href="#">Share Knowledge insights across your team and friends</a>
-            </li>
-
-            <li class="news__item">
-              <img
-                class="news__img"
-                src="https://pxelcode.com/tf-db/maxbeat/main/images/blog/blog-img-1.jpg"
-                alt="news-img"
-                width="350"
-                height="350"
-              />
-              <span>13 June</span>
-              <p>5 min Read</p>
-              <a href="#">Powerful solutions for build saas website quickly</a>
-            </li>
-
-            <li class="news__item">
-              <img
-                class="news__img"
-                src="https://pxelcode.com/tf-db/maxbeat/main/images/blog/blog-img-1.jpg"
-                alt="news-img"
-                width="350"
-                height="350"
-              />
-              <span>13 June</span>
-              <p>7 min Read</p>
-              <a href="#">Deliver faster and smarter design project to client</a>
-            </li>
-
-            <li class="news__item">
-              <img
-                class="news__img"
-                src="https://pxelcode.com/tf-db/maxbeat/main/images/blog/blog-img-1.jpg"
-                alt="news-img"
-                width="350"
-                height="350"
-              />
-              <span>13 June</span>
-              <p>10 min Read</p>
-              <a href="#">Share Knowledge insights across your team and friends</a>
-            </li>
-
-            <li class="news__item">
-              <img
-                class="news__img"
-                src="https://pxelcode.com/tf-db/maxbeat/main/images/blog/blog-img-1.jpg"
-                alt="news-img"
-                width="350"
-                height="350"
-              />
-              <span>13 June</span>
-              <p>9 min Read</p>
-              <a href="#">Share Knowledge insights across your team and friends</a>
-            </li>
-
-            <li class="news__item">
-              <img
-                class="news__img"
-                src="https://pxelcode.com/tf-db/maxbeat/main/images/blog/blog-img-1.jpg"
-                alt="news-img"
-                width="350"
-                height="350"
-              />
-              <span>13 June</span>
-              <p>7 min Read</p>
-              <a href="#">Share Knowledge insights across your team and friends</a>
-            </li>
-          </ul>
+          <ul class="news__list"></ul>
         </section>
 
         <section class="container join-us">
@@ -360,6 +282,23 @@
       </div>
     </footer>
 
+    <template id="news__card">
+      <li class="news__item">
+        <img
+          class="news__img"
+          src="https://pxelcode.com/tf-db/maxbeat/main/images/blog/blog-img-1.jpg"
+          alt="news-img"
+          width="350"
+          height="350"
+        />
+        <span class="news__date">13 June</span>
+        <p class="news__time">7 min Read</p>
+        <a class="news__link" href="#">Share Knowledge insights across your team and friends</a>
+      </li>
+    </template>
+
+    <script src="./datas/blogs-list.js"></script>
+    <script src="./js/blogs.js"></script>
     <script src="./js/main.js"></script>
   </body>
 </html>
