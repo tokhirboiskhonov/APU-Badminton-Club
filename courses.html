@@ -107,11 +107,6 @@
           <div class="popular-courses__top">
             <h2 class="popular-courses__heading">Popular Courses</h2>
 
-            <p class="popular-courses__description">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio iste officiis
-              perferendis, illo et quia.
-            </p>
-
             <span class="popular-courses__heading-divider heading-divider"><span></span></span>
           </div>
 
@@ -120,19 +115,17 @@
       </section>
 
       <!-- TEACHERS -->
-      <section class="teachers">
+      <section class="team">
         <div class="container">
-          <div class="teachers__top">
-            <h2 class="teachers__title">Our Coaches</h2>
+          <div class="team__top">
+            <h2 class="team__title">Our Team</h2>
 
-            <p class="teachers__description">There are many variations of passages</p>
-
-            <span class="heading-divider teachers__heading-divider">
+            <span class="heading-divider team__heading-divider">
               <span></span>
             </span>
           </div>
 
-          <ul class="teachers__list"></ul>
+          <ul class="team__list"></ul>
         </div>
       </section>
     </main>
@@ -149,8 +142,8 @@
             />
 
             <p class="footer__text">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec
-              ullamcorper mattis, pulvinar dapibus leo.
+              Jalan Teknologi 5, Technology Park Malaysia, Bukit Jalil, Kuala Lumpur 57000,
+              Malaysia.
             </p>
 
             <div class="footer__icons">
@@ -244,74 +237,59 @@
               <h2 class="footer__item-heading">Contact Info</h2>
 
               <div>
-                <a class="footer__item-link" href="#">National park,dl 588436,US</a>
+                <a class="footer__item-link" href="tel:+603 8996 1000">+603 8996 1000</a>
               </div>
 
               <div>
-                <a class="footer__item-link" href="tel:+1 4758123694">+1 4758123694</a>
-              </div>
-
-              <div>
-                <a class="footer__item-link" href="https://t.me/tkhjs">+998990830707</a>
-              </div>
-
-              <div>
-                <a class="footer__item-link" href="mailto: tokhir060@gmail.com">
-                  tokhir060@gmail.com
-                </a>
+                <a class="footer__item-link" href="mailto: info@apu.edu.my">info@apu.edu.my</a>
               </div>
             </li>
 
             <li class="footer__item">
               <h2 class="footer__item-heading">Information</h2>
               <a class="footer__item-link" href="about.html">About us</a>
-              <a class="footer__item-link" href="#">Leadership</a>
-              <a class="footer__item-link" href="#">Careers</a>
-              <a class="footer__item-link" href="#">Article & News</a>
               <a class="footer__item-link" href="contact.html">Contact Us</a>
             </li>
 
             <li class="footer__item">
               <h2 class="footer__item-heading">Services</h2>
-              <a class="footer__item-link" href="#">Academy</a>
+              <a class="footer__item-link" href="/courses.html">Academy</a>
               <a class="footer__item-link" href="#">Group Lesson</a>
               <a class="footer__item-link" href="#">Private Lesson</a>
-              <a class="footer__item-link" href="#">Badminton for Kids</a>
-              <a class="footer__item-link" href="#">Court Rent</a>
             </li>
 
             <li class="footer__item">
               <h2 class="footer__item-heading">Support</h2>
               <a class="footer__item-link" href="#">Help Center</a>
-              <a class="footer__item-link" href="#">Ticket Support</a>
               <a class="footer__item-link" href="#">FAQ</a>
-              <a class="footer__item-link" href="#">Forum</a>
             </li>
           </div>
         </div>
       </div>
     </footer>
 
-    <template id="teacher-card">
-      <li class="teacher__card">
-        <img
-          class="teacher__image"
-          src="/assets/images/teacher1.png"
-          alt="Teacher"
-          width="338"
-          height="340"
-        />
+    <template id="team-card">
+      <a style="text-decoration: none; color: black" href="./our-team.html">
+        <li class="team__card">
+          <img
+            class="team__image"
+            src="/assets/images/teacher1.png"
+            alt="Teacher"
+            width="338"
+            height="340"
+          />
 
-        <div class="teacher__inner">
-          <h3 class="teacher__name">Name</h3>
+          <div class="team__inner">
+            <h3 class="team__name">Name</h3>
 
-          <span class="teacher__job">Job</span>
+            <span class="team__job">Job</span>
 
-          <p class="teacher__description">Description</p>
+            <p class="team__description">Description</p>
 
-          <ul class="teacher__socials"></ul>
-        </div>
-      </li>
+            <ul class="team__socials"></ul>
+          </div>
+        </li>
+      </a>
     </template>
 
     <template id="popular-course">
@@ -344,11 +322,11 @@
           </div>
         </div>
 
-        <a class="button button--small button--red popular-course__button" href="">Learn now</a>
+        <a class="button button--small button--red popular-course__button">Learn now</a>
       </li>
     </template>
 
-    <script src="./datas/teachers.js"></script>
+    <script src="./datas/team.js"></script>
     <script src="./datas/courses-list.js"></script>
     <script src="./datas/icons.js"></script>
     <script src="./js/courses.js"></script>
