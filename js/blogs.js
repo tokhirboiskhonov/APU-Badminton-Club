@@ -10,7 +10,7 @@ const renderBlogs = (blogNews) => {
     blogsClone.querySelector(".news__img").src = blogs.image;
     blogsClone.querySelector(".news__date").textContent = blogs.dateOfPublishing;
     blogsClone.querySelector(".news__time").textContent = blogs.timeReader;
-    // blogsClone.querySelector(".news__link").textContent = blogs.descriptionLink;
+    blogsClone.querySelector(".news__link").textContent = blogs.descriptionLink;
 
     blogsList.appendChild(blogsClone);
   });
