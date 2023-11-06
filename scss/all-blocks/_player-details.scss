@@ -3,14 +3,10 @@
 }
 
 .player__top {
-  position: relative;
-  margin-bottom: 50px;
   overflow-x: hidden;
   color: $white;
-  background-image: url(/assets/images/page-title-bg.jpg);
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center center;
+  background-color: $black;
+  margin-bottom: 50px;
 }
 
 .player__container {

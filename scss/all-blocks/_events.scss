@@ -1,11 +1,9 @@
 .event__banner {
-  position: relative;
   overflow-x: hidden;
+
   color: $white;
-  background-image: url(/assets/images/page-title-bg.jpg);
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center center;
+
+  background-color: $black;
 }
 
 .event__container {

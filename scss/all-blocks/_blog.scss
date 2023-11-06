@@ -1,12 +1,7 @@
 .blogs__banner {
-  position: relative;
   overflow-x: hidden;
   color: $white;
-  padding: 120px 0;
-  background-image: url(/assets/images/blogs-bg.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center center;
+  background-color: $black;
 }
 
 .blogs__container {
@@ -38,7 +33,7 @@
 
 .latest__title {
   margin: 0;
-  margin-bottom: 75px;
+  margin-bottom: 40px;
   padding: 0;
   @include Heading2;
   text-align: center;

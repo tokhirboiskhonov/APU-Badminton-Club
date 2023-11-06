@@ -1,29 +1,21 @@
 .join-us {
   margin: 0;
-  padding: 100px 0;
   margin-bottom: 100px;
-
+  padding: 100px 0;
   color: $white;
   text-align: center;
-
   background-color: $black;
-
-  // background-image: url("../../assets/images/badminton-back.jpg");
-  // background-repeat: no-repeat;
-  // background-size: cover;
 }
 
 .join-us__heading {
   margin: 0;
   margin-bottom: 10px;
-
   @include Heading2;
 }
 
 .join-us__description {
   margin: 0;
   margin-bottom: 10px;
-
   @include MiddleText;
 }
 
