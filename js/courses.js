@@ -1,25 +1,25 @@
-const teachersList = document.querySelector(".teachers__list");
-const teacherCardTemplate = document.querySelector("#teacher-card").content;
+const teamList = document.querySelector(".team__list");
+const teamCardTemplate = document.querySelector("#team-card").content;
 
 const coursesList = document.querySelector(".popular-courses__list");
 const courseCardTemplate = document.querySelector("#popular-course").content;
 
-const renderTeachers = (teachers) => {
-  teachersList.innerHTML = null;
+const renderTeam = (teams) => {
+  teamList.innerHTML = null;
 
-  teachers.forEach((teacher) => {
-    const teacherClone = teacherCardTemplate.cloneNode(true);
+  teams.forEach((team) => {
+    const teamClone = teamCardTemplate.cloneNode(true);
 
-    teacherClone.querySelector(".teacher__name").textContent = teacher.name;
-    teacherClone.querySelector(".teacher__job").textContent = teacher.job;
-    teacherClone.querySelector(".teacher__description").textContent = teacher.description;
-    teacherClone.querySelector(".teacher__image").src = teacher.image;
+    teamClone.querySelector(".team__name").textContent = team.name;
+    teamClone.querySelector(".team__job").textContent = team.job;
+    teamClone.querySelector(".team__description").textContent = team.description;
+    teamClone.querySelector(".team__image").src = team.image;
 
-    teacher.socials.forEach((social) => {
+    team.socials.forEach((social) => {
       const item = document.createElement("li");
       const anchor = document.createElement("a");
 
-      item.classList.add("teacher__social");
+      item.classList.add("team__social");
 
       anchor.target = "_blank";
       anchor.href = social.link;
@@ -27,10 +27,10 @@ const renderTeachers = (teachers) => {
 
       item.appendChild(anchor);
 
-      teacherClone.querySelector(".teacher__socials").appendChild(item);
+      teamClone.querySelector(".team__socials").appendChild(item);
     });
 
-    teachersList.appendChild(teacherClone);
+    teamList.appendChild(teamClone);
   });
 };
 
@@ -47,12 +47,12 @@ const renderCourses = (courses) => {
     courseClone.querySelector(".popular-course__description").textContent = course.description;
     courseClone.querySelector(".popular-course__shows").textContent = course.shows;
     courseClone.querySelector(".popular-course__comments").textContent = course.comments;
-    courseClone.querySelector(".popular-course__button").href = `./course/${course.alias}.html`;
+    // courseClone.querySelector(".popular-course__button").href = `./course/${course.alias}.html`;
     courseClone.querySelector(".popular-course__rating").innerHTML = ratings[course.rating];
 
     coursesList.appendChild(courseClone);
   });
 };
 
-renderTeachers(teachers);
+renderTeam(teams);
 renderCourses(courses);
