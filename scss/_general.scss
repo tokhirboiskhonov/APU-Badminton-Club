@@ -39,6 +39,10 @@ body {
   background-color: $background;
 }
 
+a {
+  cursor: none;
+}
+
 img {
   display: block;
 }
@@ -54,4 +58,5 @@ main {
   background-image: url("../assets/images/shuttle.png");
   background-size: cover;
   pointer-events: none;
+  z-index: 1000;
 }

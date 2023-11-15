@@ -81,7 +81,7 @@
   padding: 45px 0;
   background: #fff;
   width: 244px;
-  cursor: pointer;
+  cursor: none;
   transition: all 0.3s ease;
   border: 1px solid transparent;
   margin-bottom: 15px;
@@ -99,7 +99,7 @@
   display: block;
   margin: 0 auto;
   margin-top: 20px;
-  cursor: pointer;
+  cursor: none;
   transition: all 0.3s ease;
   &:active {
     background-color: $black !important;
