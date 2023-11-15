@@ -35,7 +35,7 @@ body {
   font-weight: 400;
   line-height: 16px;
   color: $black;
-
+  cursor: none;
   background-color: $background;
 }
 
@@ -45,4 +45,13 @@ img {
 
 main {
   flex-grow: 1;
+}
+
+.custom-cursor {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  background-image: url("../assets/images/shuttle.png");
+  background-size: cover;
+  pointer-events: none;
 }
