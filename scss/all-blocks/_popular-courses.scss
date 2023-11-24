@@ -158,4 +158,8 @@
   &::after {
     content: url("../../assets/icons/right-marker.svg");
   }
+
+  &:active {
+    background-color: $black !important;
+  }
 }
