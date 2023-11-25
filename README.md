@@ -1,2 +1,3 @@
-# Merit-website
+# APU-Badminton-Club
+
 Project for assignment
