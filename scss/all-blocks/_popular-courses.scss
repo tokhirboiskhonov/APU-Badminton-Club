@@ -93,7 +93,7 @@
   @include MiddleText;
 
   &::before {
-    content: url("../../assets/icons/date-icon.svg");
+    content: url("../assets/icons/date-icon.svg");
 
     height: 16px;
     margin-bottom: 5px;
@@ -123,7 +123,7 @@
   line-height: 16px !important;
 
   &::before {
-    content: url("../../assets/icons/eye-icon.svg");
+    content: url("../assets/icons/eye-icon.svg");
     height: 16px;
   }
 }
@@ -132,7 +132,7 @@
   margin-right: auto;
 
   &::before {
-    content: url("../../assets/icons/comment-icon.svg");
+    content: url("../assets/icons/comment-icon.svg");
     height: 16px;
   }
 }
@@ -156,7 +156,7 @@
   margin: 0 auto;
 
   &::after {
-    content: url("../../assets/icons/right-marker.svg");
+    content: url("../assets/icons/right-marker.svg");
   }
 
   &:active {

@@ -79,19 +79,19 @@
 
   &[aria-label="join-us"] {
     &::before {
-      content: url("../../assets/icons/join-us.svg");
+      content: url("../assets/icons/join-us.svg");
     }
   }
 
   &[aria-label="wishlist"] {
     &::before {
-      content: url("../../assets/icons/wishlist.svg");
+      content: url("../assets/icons/wishlist.svg");
     }
   }
 
   &[aria-label="sponsor"] {
     &::before {
-      content: url("../../assets/icons/sponsor.svg");
+      content: url("../assets/icons/sponsor.svg");
     }
   }
 }
